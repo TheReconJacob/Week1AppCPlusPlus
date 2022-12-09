@@ -9,6 +9,7 @@
 
 int main()
 {
+    srand(time(0));
     int scores[100];
     enum Skill { novice, intermediate, advanced, hardcore };
     int range[4] = { novice, intermediate, advanced, hardcore };
