@@ -19,7 +19,7 @@ int main()
     range[hardcore] = 0;
 
     for (int i = 0; i < 100; i++) {
-        scores[i] = (rand() % 100);
+        scores[i] = (rand() % 101);
 
         if (scores[i] <= 40)
         {
